@@ -2,7 +2,7 @@ let listDOM = document.querySelector("#list");
 // the array to store all tasks
 let tasks = [];
 
-// add new item to the list when click "Ekle" button
+// add new item to the list when click "Add" button
 // show success or error message by testing input value is empty or not
 const newElement = () => {
   let task = document.querySelector("#task");
